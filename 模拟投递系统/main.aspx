@@ -70,18 +70,19 @@
 
         #div_addr {
             background-color: #fff;
-            width: auto;
+            /*width: auto;*/
             margin: 5px;
             float: left;
             padding: 5px;
-            min-width: 500px;
+            /*min-width: 500px;*/
+            width:500px;
         }
 
         #div_zhan {
             background-color: #fff;
             width: 20px;
             margin: 5px;
-            float: left;
+            float: right;
             padding: 5px;
             margin-right: 0px;
             height: 23px;
@@ -93,7 +94,7 @@
             margin-bottom: 5px;
             margin-top: 5px;
             margin-right: 5px;
-            float: left;
+            float: right;
             /*padding:5px;*/
         }
 
@@ -101,7 +102,7 @@
             background-color: #fff;
             width: 20px;
             margin: 5px;
-            float: left;
+            float: right;
             padding: 5px;
             margin-right: 0px;
             height: 23px;
@@ -113,7 +114,7 @@
             margin-bottom: 5px;
             margin-top: 5px;
             margin-right: 5px;
-            float: left;
+            float: right;
             /*padding:5px;*/
         }
 

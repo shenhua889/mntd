@@ -43,3 +43,4 @@ C:\Users\shenhua\Documents\GitHub\mntd\模拟投递系统\bin\模拟投递系统
 C:\Users\shenhua\Documents\GitHub\mntd\模拟投递系统\bin\模拟投递系统.pdb
 C:\Users\shenhua\Documents\GitHub\mntd\模拟投递系统\obj\Debug\模拟投递系统.dll
 C:\Users\shenhua\Documents\GitHub\mntd\模拟投递系统\obj\Debug\模拟投递系统.pdb
+C:\Users\shenhua\Documents\GitHub\mntd\模拟投递系统\obj\Debug\模拟投递系统.csprojResolveAssemblyReference.cache

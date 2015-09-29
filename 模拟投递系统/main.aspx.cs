@@ -124,8 +124,9 @@ namespace 模拟投递系统
                 UpPage.Visible = false;
             else
                 UpPage.Visible = true;
-            int start = (page - 1) * 50 + 1;
-            string SqlText = "select * from " + TableName + " where 1=1" + zhan_duan_text + post_list_text + duan_list_text + " LIMIT " + start + ",50" ;
+            int start = (page - 1) * 50;
+            int end = (page * 50) - 1;
+            string SqlText = "select * from " + TableName + " where 1=1" + zhan_duan_text + post_list_text + duan_list_text + " LIMIT " + start + ","+end ;
             DataTable dt = msh.ExecuteDataTable(SqlText);
             Repeater1.DataSource = dt.DefaultView;
             Repeater1.DataBind();
