@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVzE72GSweEKRESz7BRjzQwAAAAACAAAAAAAQZgAAAAEAACAAAAAhSTPBwDaenPtiSyOjv0ISZ7M8odWmRVHaXP2EFETRrwAAAAAOgAAAAAIAACAAAADLm+EumD4rAQlvzfxO4hYnea8dyeQ63/0Sz1GYgT80BSAAAAD1c9YkaDgz4FTwwEl+DoAoYm7VZP/Ucmoj7IgP6sUA3kAAAAC0zs0/x4zCrQOQzXfaYerN+FPss6j7BBlcD7ZLYNZAn46JiRzZSCazRD1Anh1C/+fIBLZUy+JYfh47YaanzoeT</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.138.4.66</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>12/18/2013 00:13:40</publishTime>
+    </File>
+    <File Include="bin/模拟投递系统.dll">
+      <publishTime>09/25/2015 15:40:04</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="InsertTable.aspx">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="jquery.min.js">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="main.aspx">
+      <publishTime>09/28/2015 16:20:28</publishTime>
+    </File>
+    <File Include="sidebar.aspx">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="TablesCount.aspx">
+      <publishTime>12/29/2014 01:19:38</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>10/30/2014 15:41:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/14/2015 17:33:32</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>10/30/2014 15:41:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
