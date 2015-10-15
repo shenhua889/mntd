@@ -189,7 +189,7 @@
                     $(this).parent().parent().next().children("[id*='div_duantext']").children("[id*='duan_text']").select();
                     //$(this).parent().parent().next().children("[id*='div_duantext']").children("[id*='duan_text']").focus();
                     var scroll_offset = $(this).parent().parent().next().children("[id*='div_duantext']").children("[id*='duan_text']").offset();
-                    $("body").animate({ scrollTop: scroll_offset.top }, 300);
+                    $("body").animate({ scrollTop: scroll_offset.top }, 100);
                 }
                 if ((key >= 48 && key <= 57) || (key >= 96 && key <= 105) || key == 8 || key == 9) {
                     return true;
@@ -210,7 +210,19 @@
                     $(this).parent().parent().next().children("[id*='div_posttext']").children("[id*='yb_text']").select();
                     //$(this).parent().parent().next().children("[id*='div_posttext']").children("[id*='yb_text']").focus();
                     var scroll_offset = $(this).parent().parent().next().children("[id*='div_posttext']").children("[id*='yb_text']").offset();
-                    $("body").animate({ scrollTop: scroll_offset.top }, 300);
+                    $("body").animate({ scrollTop: scroll_offset.top }, 100);
+                }
+                else if(key=="38")
+                {
+                    $(this).parent().parent().prev().children("[id*='div_posttext']").children("[id*='yb_text']").select();
+                    var scroll_offset = $(this).parent().parent().prev().children("[id*='div_posttext']").children("[id*='yb_text']").offset();
+                    $("body").animate({ scrollTop: scroll_offset.top }, 100);
+                }
+                else if (key == "40")
+                {
+                    $(this).parent().parent().next().children("[id*='div_posttext']").children("[id*='yb_text']").select();
+                    var scroll_offset = $(this).parent().parent().next().children("[id*='div_posttext']").children("[id*='yb_text']").offset();
+                    $("body").animate({ scrollTop: scroll_offset.top }, 100);
                 }
                 if ((key >= 48 && key <= 57) || (key >= 96 && key <= 105) || key == 8 || key == 9) {
                     return true;
@@ -303,10 +315,10 @@
                 </ItemTemplate>
             </asp:Repeater>
             <div style="align-content: center; text-align: center">
-                <asp:Button ID="UpPage" runat="server" Text="上一页" Style="margin-right: 250px;" OnClick="UpPage_Click" />
+                <asp:Button ID="UpPage" runat="server" Text="上一页" Style="margin-right: 250px;" UseSubmitBehavior="false" OnClick="UpPage_Click" />
                 <input type="text" style="display: none" />
                 <asp:Button ID="Button1" runat="server" Text="提交" OnClick="Button1_Click" UseSubmitBehavior="false" Style="margin: auto" />
-                <asp:Button ID="NextPage" runat="server" Text="下一页" Style="margin-left: 250px;" OnClick="NextPage_Click" />
+                <asp:Button ID="NextPage" runat="server" Text="下一页" Style="margin-left: 250px;" UseSubmitBehavior="false" OnClick="NextPage_Click" />
             </div>
         </div>
     </form>
